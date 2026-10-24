@@ -1,8 +1,8 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { X } from 'lucide-react'
-import { formatPrice, productById } from '../data/catalog'
-import { useCart } from '../context/CartContext'
-import { useOrders } from '../context/OrderContext'
+import { formatPrice, productById } from './catalog'
+import { useCart } from './CartContext'
+import { useOrders } from './OrderContext'
 
 const ease = [0.16, 1, 0.3, 1] as const
 
